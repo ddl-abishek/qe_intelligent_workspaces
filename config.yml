@@ -1,25 +1,14 @@
  Dataset:
-     'dir' : "/mnt/data/qe_dask_benchmark_GBP"
-     '2013-14' : "/mnt/data/qe_dask_benchmark_GBP/Parking_Violations_Issued_-_Fiscal_Year_2014__August_2013___June_2014_.csv"
-     '2015' : "/mnt/data/qe_dask_benchmark_GBP/Parking_Violations_Issued_-_Fiscal_Year_2015.csv"
-     '2016' : "/mnt/data/qe_dask_benchmark_GBP/Parking_Violations_Issued_-_Fiscal_Year_2016.csv"
-     '2017' : "/mnt/data/qe_dask_benchmark_GBP/Parking_Violations_Issued_-_Fiscal_Year_2017.csv"
+     'dir' : "/mnt/code/qe_intelligent_workspaces"
+     '2013-14' : "/mnt/code/qe_intelligent_workspaces/Parking_Violations_Issued_-_Fiscal_Year_2014__August_2013___June_2014_.csv"
+     '2015' : "/mnt/code/qe_intelligent_workspaces/Parking_Violations_Issued_-_Fiscal_Year_2015.csv"
+     '2016' : "/mnt/code/qe_intelligent_workspaces/Parking_Violations_Issued_-_Fiscal_Year_2016.csv"
+     '2017' : "/mnt/code/qe_intelligent_workspaces/Parking_Violations_Issued_-_Fiscal_Year_2017.csv"
  clean_data:
-     'dir' : "/mnt/data/qe_dask_benchmark_GBP/clean_data"
-     '2013-14' : "/mnt/data/qe_dask_benchmark_GBP/clean_data/clean_data_13_14.csv"
-     '2015' : "/mnt/data/qe_dask_benchmark_GBP/clean_data/clean_data_15.csv"
-     '2016' : "/mnt/data/qe_dask_benchmark_GBP/clean_data/clean_data_16.csv"
-     '2017' : "/mnt/data/qe_dask_benchmark_GBP/clean_data/clean_data_17.csv"
- PCA:
-     'n_components' : 3
- KMeans:
-     'n_clusters' : 3
-     'init' : 'k-means++'
-     'random_state' : 42
-     'dir' : "/mnt/data/qe_dask_benchmark_GBP/kmeans"
-     '2013-14' : "/mnt/data/qe_dask_benchmark_GBP/kmeans/Parking_Violations_Issued_-_Fiscal_Year_2014__August_2013___June_2014_.csv"
-     '2015' : "/mnt/data/qe_dask_benchmark_GBP/kmeans/Parking_Violations_Issued_-_Fiscal_Year_2015.csv"
-     '2016' : "/mnt/data/qe_dask_benchmark_GBP/kmeans/Parking_Violations_Issued_-_Fiscal_Year_2016.csv"
-     '2017' : "/mnt/data/qe_dask_benchmark_GBP/kmeans/Parking_Violations_Issued_-_Fiscal_Year_2017.csv"
+     'dir' : "/mnt/data/qe_intelligent_workspaces/clean_data"
+     '2013-14' : "/mnt/data/qe_intelligent_workspaces/clean_data/clean_data_13_14.csv"
+     '2015' : "/mnt/data/qe_intelligent_workspaces/clean_data/clean_data_15.csv"
+     '2016' : "/mnt/data/qe_intelligent_workspaces/clean_data/clean_data_16.csv"
+     '2017' : "/mnt/data/qe_intelligent_workspaces/clean_data/clean_data_17.csv"
  artifacts : 
      'path' : '/mnt/artifacts/results'

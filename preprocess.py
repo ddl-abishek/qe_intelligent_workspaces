@@ -1,7 +1,4 @@
-import dask.dataframe as dd
 import pandas as pd
-import dask
-from dask.distributed import Client, performance_report
 from utils import convert_date
 import yaml
 from datetime import datetime
@@ -22,7 +19,7 @@ def preprocess_csv(csv_year):
                  'Issuer Precinct' : float,
                  'Vehicle Year' : float}        
     
-    clean_data = dd.read_csv(config['Dataset'][csv_year], 
+    clean_data = pd.read_csv(config['Dataset'][csv_year], 
                              usecols=['Vehicle Expiration Date', 'Violation Precinct', 'Issuer Precinct', 'Vehicle Year'], 
                              dtype=dtype).dropna()
     
