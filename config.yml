@@ -1,9 +1,9 @@
  Dataset:
-     'dir' : "/mnt/code/qe_intelligent_workspaces"
-     '2013-14' : "/mnt/code/qe_intelligent_workspaces/Parking_Violations_Issued_-_Fiscal_Year_2014__August_2013___June_2014_.csv"
-     '2015' : "/mnt/code/qe_intelligent_workspaces/Parking_Violations_Issued_-_Fiscal_Year_2015.csv"
-     '2016' : "/mnt/code/qe_intelligent_workspaces/Parking_Violations_Issued_-_Fiscal_Year_2016.csv"
-     '2017' : "/mnt/code/qe_intelligent_workspaces/Parking_Violations_Issued_-_Fiscal_Year_2017.csv"
+     'dir' : "/mnt/code/"
+     '2013-14' : "/mnt/code/Parking_Violations_Issued_-_Fiscal_Year_2014__August_2013___June_2014_.csv"
+     '2015' : "/mnt/code/Parking_Violations_Issued_-_Fiscal_Year_2015.csv"
+     '2016' : "/mnt/code/Parking_Violations_Issued_-_Fiscal_Year_2016.csv"
+     '2017' : "/mnt/code/Parking_Violations_Issued_-_Fiscal_Year_2017.csv"
  clean_data:
      'dir' : "/mnt/data/qe_intelligent_workspaces/clean_data"
      '2013-14' : "/mnt/data/qe_intelligent_workspaces/clean_data/clean_data_13_14.csv"
