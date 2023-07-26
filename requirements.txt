@@ -1,8 +1,8 @@
-dask_ml==2021.10.17
-pandas==1.3.0
-pyyaml==5.4.1
-matplotlib==3.4.2
-seaborn==0.11.1
+dask_ml
+pandas
+pyyaml
+matplotlib
+seaborn
 torch 
 torchvision 
 torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
